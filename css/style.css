@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Manuale&family=Playfair+Display:wght@700&family=Playpen+Sans:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Manuale', serif;
+    background-image: url("img/Egorsprojectt.jpg");
+    height: 4253px;
+}
+
+header{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    background-color: red;
+}
+
+.logotxt{
+    font-size: 28px;
+    display: flex;
+    align-items: center;  
+    padding-left: 5px;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.logo{
+    display: flex;
+    flex-flow: nowrap row;
+    height: 50px;
+}
+
+nav{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.page1_logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 852px;
+}
+
+.myface_sigma{
+    border-radius: 500px;
+    height: 400px;
+    width: 400px;
+}
+
+.text__logo>*{
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+
+}
+
+.inline-element__button__email{
+    background-color: #11d90d;
+    padding: 20px 40px;
+    border-radius: 10px;
+    height: 20px;
+}
+
+.br__h1__logo{
+    height: 370px;
+}
