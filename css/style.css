@@ -75,3 +75,7 @@ nav{
 .br__h1__logo{
     height: 370px;
 }
+
+.inline-element__button__email:hover{
+    margin-top: 40px;
+}
